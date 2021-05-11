@@ -1,0 +1,77 @@
+@charset 'utf-8';
+@font-face{font-family:MG050;
+        src:url(../font/210 M고딕050 OTF.otf) format('otf'), url(../font/210 M고딕050 OTF.ttf) format('true type');}
+.bg_wrap{
+    /* padding-bottom:calc(100vw * (100 / 640)); position:relative; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: flex; */
+    /* padding: calc(100vw * (35 / 640)) calc(100vw * (35 / 640)); */
+    /* height: calc(100vw * (40 / 640)); */
+    /* padding: 0 calc(100vw * (40 / 640)) calc(100vw * (0 / 640)); */
+    /* margin-top: calc(100vw*(52/640)); */
+    /* 2020/12/2 - 캠페인신청하기 &  마이페이지 나의 관심제품 관리 헤더 높이값 수정*/
+    height: calc(100vw * (110 / 640));
+    z-index: 99;
+    top: 0;
+    
+}
+/* 알림설정 */
+.bg_wrap.ar1 {
+    margin-bottom: calc(100vw*(30/640))
+}
+
+#faq_wrap {height: calc(100vw*(80/640));}
+.back{
+    width: calc(100vw * (27 / 640));
+    height: calc(100vw * (35 / 640));
+    display: block;
+    background-image: url(../img/setting/back.png);
+    background-size: calc(100vw * (27 / 640)) calc(100vw * (35 / 640));
+    background-repeat: no-repeat;
+    background-position: top calc(100vw * (50 / 640)) left calc(100vw * (40 / 640));
+    padding: calc(100vw * (52/ 640)) calc(100vw * (80/ 640)) calc(100vw * (80/ 640)) calc(100vw * (40/ 640));
+    float: left;
+}
+.back.active {opacity: 0.4;transition: 0.2s;}
+
+/* 2020/11/20 - 포지션 값 삭제 후 텍스트 센터 추가 */
+.bg_wrap h1{ 
+    padding-top: calc(100vw * (52 / 640));
+    padding-right: calc(100vw * (110 / 640));
+    text-align: center;
+    color:#fff; 
+    font-size:calc(100vw * (22 / 640)); 
+    margin:0 auto;  
+    font-family:MG050;
+    letter-spacing:calc(100vw * (-0.22 / 640))
+}
+.head_txt {
+    /* 2020/12/2 - 캠페인신청하기 &  마이페이지 나의 관심제품 관리 헤더 텍스트 마진탑값 수정*/    
+    height: auto;
+    width: calc(100vw* (510/640));
+    margin: 0 auto;
+}
+
+@media all and (min-width:820px){
+.bg_wrap{max-width:800px; padding-bottom:calc(800px * (100 / 640));}
+.back{width: calc(800px * (24 / 640));
+    height: calc(800px * (35 / 640));
+	/* margin-top:calc(800px * (60 / 640)); */
+}
+.bg_wrap h1{text-align: center; font-size:calc(800px * (22 / 640)); letter-spacing:calc(800px * (-0.22 / 640))}
+.notice_icon {
+    width: auto;
+    height: calc(100vw * (35/640));
+    position: absolute;
+    right: calc(100vw * (46/640));
+    top: 0px;
+    padding: calc(100vw * (52/ 640)) calc(100vw * (40/ 640)) calc(100vw * (80/ 640)) calc(100vw * (40/ 640));
+}
+.head_txt {
+    padding-top: calc(100vw * (70 / 640));
+}
+
+
+
+}

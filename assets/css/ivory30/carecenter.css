@@ -1,0 +1,202 @@
+
+/* 두번쨰 페이지 베베캠 */
+section#care {
+  min-height: 1799px;
+  height: 1799px;
+  background: url(../../img/background/cere-bg01.jpg)no-repeat center  center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#care {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1266 /640));
+    min-height: calc(100vw * (1266 /640));
+    background: url(../../img/background/mb-carecenter-bg02.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+section#campain01 {
+  min-height: 1604px;
+  height: 1604px;
+  background: url(../../img/background/care-bg02.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain01 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1657 /640));
+    min-height: calc(100vw * (1657 /640));
+    background: url(../../img/background/mb-carecenter-bg03.png)no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+/* slide2 */
+.slide3-mobile-img {
+  width: auto;
+  position: absolute;
+  top: -20px;
+  left: 280px;
+}
+@media(max-width:767px) {
+  .slide3-mobile-img {
+    width: calc(100vw * (488 /640));
+    top: calc(100vw * (60 /640));
+    left: calc(100vw * (80 /640));
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .slide3-mobile-img {
+    width: calc(100vw * (320 /640));
+    height: auto;
+    top: calc(100vw * (40 /640));
+    left: calc(100vw * (20 /640));
+  }
+}
+.care-logo {
+  padding-left: 200px;
+}
+@media(max-width:767px) {
+  .care-logo {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .care-logo {
+    padding-left: calc(800px * (60 / 640));
+  }    
+}
+.care-logo img.logoImg{
+  padding-top: 0;
+  padding-left: 0;
+}
+.care-logo h3 {
+  font-size: 46px;
+  letter-spacing: -0.5px;
+  line-height: 51px;
+  padding: 0;
+  margin: 45px 0 26px;
+}
+@media(max-width:767px) {
+  .care-logo h3 {
+    font-size: calc(100vw * (50/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (55/640));
+    padding: 0;
+    margin: calc(100vw * (55/640)) 0;
+  }
+}
+.care-logo p {
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+}
+@media(max-width:767px) {
+  .care-logo p {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+
+
+/* 시장 점유율 1위 */
+section#care .view-col-pt {
+  padding-top: 447px;
+}
+@media(max-width:767px) {
+  section#care .view-col-pt {
+    padding-top: calc(100vw * (40/640));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  section#care .view-col-pt {
+    padding-top: calc(800px * (240 / 640));
+  }  
+}
+
+section#care img.view-mobile-img{
+  width: 710px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 108px;
+}
+@media(max-width:767px) {
+  section#care img.view-mobile-img{
+    width: calc(100vw * (515/640));
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 150px;
+  }
+}
+section#care p{
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  line-height: 43px;
+}
+@media(max-width:767px) {
+  section#care p{
+    padding-top: calc(100vw * (150/640));
+    font-size: calc(100vw * (30/640));
+    letter-spacing: calc(100vw * (-0.2/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+
+
+/* 케어센터 텍스트 */
+@media(max-width:767px) {
+  section#carecenter p.carecenter-txt {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (18/640));
+    line-height: calc(100vw * (90/640));
+    font-weight: bold;
+  }
+}
+
+section#campain01 img {
+  width: auto;
+}
+@media(max-width:767px) {
+  section#campain01 img {
+    width: calc(100vw * (842/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain01 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain01 img {
+    width: calc(800px * (800/640));
+  } 
+}
+
+
+@media(max-width:767px) {
+  section#campain01 div.video-txt {
+    width: calc(100vw * (340/640));
+    text-align: left;
+    position:absolute;
+    right:calc(100vw * (-15/640));
+    bottom: calc(100vw * (-60/640));
+  }
+}

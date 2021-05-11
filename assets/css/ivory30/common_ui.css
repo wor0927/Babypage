@@ -1,0 +1,38 @@
+.loading_wrap{
+  position:fixed; top:0px; left:0px; background-color:rgba(255,255,255,0.12); width:100%; height:100%; z-index:99000;
+}
+
+.loading-circle{
+  position:absolute; margin:auto; top:0; bottom:0; left:0; right:0; width:54px; height:54px;
+  animation: rotate_image .6s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.loading_point{
+  position:absolute; margin:auto; top:0; bottom:0; left:0; right:0; width:54px; height:54px;
+}
+
+.loading_wait_text{
+  position: absolute;
+  margin: auto;
+  top: 134px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  height: 54px;
+  font-size: calc(100vw * (25 / 640));
+  letter-spacing: calc(100vw * (-0.6 / 640));
+  line-height: calc(100vw * ( 40 / 640));
+}
+
+
+@keyframes rotate_image{
+  100% {
+	transform: rotate(360deg);
+  }
+}
+
+.whiteBottom { width:100%; max-width: calc(800px * (640 /640)); height: 80%; position: absolute; bottom:0;  background-color:#fff; z-index :-1;}

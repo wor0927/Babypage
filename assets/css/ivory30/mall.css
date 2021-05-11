@@ -1,0 +1,344 @@
+
+/* 두번쨰 페이지 베베캠 */
+section#bebyfair {
+  min-height: 1181px;
+  height: 1181px;
+  background: url(../../img/background/mall01-bg.jpg)no-repeat center  center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#bebyfair {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1079 /640));
+    min-height: calc(100vw * (1079 /640));
+    background: url(../../img/background/mb-mall-bg02.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+section#campain01 {
+  height: 1602px;
+  min-height: 1602px;
+  background: url(../../img/background/mall-bg01.png)no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#campain01 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339 /640));
+    min-height: calc(100vw * (1339 /640));
+    background: url(../../img/background/mb-mall-bg03.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#campain02 {
+  height: 1602px;
+  min-height: 1602px;
+  background: url(../../img/background/mall-bg02.png)no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#campain02 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339 /640));
+    min-height: calc(100vw * (1339 /640));
+    background: url(../../img/background/mb-mall-bg04.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#campain03 {
+  height: 1977px;
+  min-height: 1977px;
+  background-color: #80B8AD;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain03 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339 /640));
+    min-height: calc(100vw * (1339 /640));
+    background: url(../../img/background/mb-mall-bg05.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+
+/* section01, 02, 03, 04 이미지 텍스트 위치*/
+
+/* campain01 */
+section#campain01 img {
+  width: auto;
+}
+@media(max-width:767px) {
+  section#campain01 img {
+    width: calc(100vw * (841/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain01 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain01 img {
+    width: calc(800px * (800/640));
+  } 
+}
+@media(max-width:767px) {
+  section#campain01 div.video-txt {
+    width: calc(100vw * (360/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* campain02 */
+section#campain02 img {
+  width: auto;
+}
+@media(max-width:767px) {
+  section#campain02 img {
+    width: calc(100vw * (866/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain02 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain02 img {
+    width: calc(800px * (800/640));
+  } 
+}
+@media(max-width:767px) {
+  section#campain02 div.video-txt {
+    width: calc(100vw * (360/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* campain03 */
+section#campain03 img {
+  width: 713px;
+}
+@media(max-width:767px) {
+  section#campain03 img {
+    width: calc(100vw * (771/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain03 img {
+    width: calc(800px * (500/640)) !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain03 img {
+    width: calc(800px * (800/640));
+  } 
+}
+@media(max-width:767px) {
+  section#campain03 div.video-txt {
+    width: calc(100vw * (400/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* slide5 */
+.slide5-mobile-img {
+  width: auto;
+  position: absolute;
+  top: 140px;
+  left: -280px;
+}
+@media (max-width: 767px){
+  .slide5-mobile-img {
+    width: calc(100vw * (1064 /640));
+    top: calc(100vw * (580/640));
+    left: calc(100vw * (-260 /640));
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+.slide5-mobile-img {
+    width: calc(100vw * (520 /640));
+    height: auto;
+    top: calc(100vw * (150 /640));
+    left: calc(100vw * (-160 /640));
+  }
+} 
+.slide3-mobile-img {
+  width: calc(100vw * (488 /640));
+  top: calc(100vw * (60 /640));
+  left: calc(100vw * (80 /640));
+}
+.view-logo {
+  padding-left: 140px;
+}
+@media (max-width: 767px){
+  .view-logo {
+      padding-left: calc(800px * (0 /640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .view-logo {
+    padding-left: 0;
+  }
+}
+.view-logo img.logoImg{
+  padding-top: 0;
+}
+.view-logo h3 {
+  font-size: 46px;
+  letter-spacing: -0.5px;
+  line-height: 51px;
+  padding: 0;
+  margin: 45px 0 26px;
+}
+@media (max-width: 767px){
+  .view-logo h3 {
+      font-size: calc(100vw * (50/640));
+      letter-spacing: calc(100vw * (-0.5/640));
+      line-height: calc(100vw * (55/640));
+      padding: 0;
+      margin: calc(100vw * (55/640)) 0;
+  }
+}
+.view-logo p {
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+}
+@media (max-width: 767px){
+  .view-logo p {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+
+
+/* 시장 점유율 1위 */
+section#bebyfair .view-col-pt {
+  padding-top: 373px;
+}
+section#bebyfair img.view-mobile-img{
+  width: 837px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 185px;
+}
+section#bebyfair h3{
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  line-height: 50px;
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+@media (max-width: 767px){
+  section#bebyfair h3{
+    font-size: calc(100vw * (33/640));
+    letter-spacing: calc(100vw * (-0.2/640));
+    line-height: calc(100vw * (41/640));
+    padding-top: calc(100vw * (80/640));
+    padding-bottom: calc(100vw * (25/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#bebyfair h3{
+    font-size: calc(800px * (24/640));
+    padding-top: calc(800px * (40/640));
+  }
+}
+section#bebyfair p{
+  font-size: 23px;
+  letter-spacing: -0.6px;
+  line-height: 39px;
+  margin: 0;
+}
+@media (max-width: 767px){
+  section#bebyfair p{
+    font-size: calc(100vw * (22/640));
+    letter-spacing: calc(100vw * (-0.6/640)); 
+    line-height: calc(100vw * (35/640));
+  }
+}
+section#bebyfair .cycle-pt {
+  padding-top: 339px;
+}
+@media (max-width: 767px){
+  section#bebyfair .cycle-pt {
+    padding-top: calc(100vw * (162/640));
+  }
+}
+section#bebyfair .circle-lg2 {
+  margin-left: -40px;
+}
+@media (max-width: 767px){
+  section#bebyfair .circle-lg2 {
+    margin-top: calc(100vw * (-38/640));
+    margin-left: 0;
+  }
+}
+
+/*  campain03 */
+section#campain03 img.babyfair-img {
+  width: 1043px;
+  margin-top: 72px;
+}
+
+
+/* 몰 텍스트 */
+@media(max-width:767px) {
+  section#mall p.mall-txt {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (18/640));
+    line-height: calc(100vw * (90/640));
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,368 @@
+
+/* 두번쨰 페이지 베베캠 */
+section#view {
+  height: 1177px;
+  min-height: 1177px;
+  background: url(../../img/background/view01-bg.jpg)no-repeat center  center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#view {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1045/640));
+    min-height: calc(100vw * (1045/640));
+    background: url(../../img/background/mb-review-bg02.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#campain01 {
+  height: 1601px;
+  min-height: 1601px;
+  background: url(../../img/background/view-bg01.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain01 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339/640));
+    min-height: calc(100vw * (1339/640));
+    background: url(../../img/background/mb-review-bg03.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#campain02 {
+  height: 1601px;
+  min-height: 1601px;
+  background: url(../../img/background/view-bg02.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain02 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339/640));
+    min-height: calc(100vw * (1339/640));
+    background: url(../../img/background/mb-review-bg04.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+
+section#campain03 {
+  height: 1601px;
+  min-height: 1601px;
+  background: url(../../img/background/view-bg03.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain03 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339/640));
+    min-height: calc(100vw * (1339/640));
+    background: url(../../img/background/mb-review-bg05.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#campain04 {
+  height: 1601px;
+  min-height: 1601px;
+  background: url(../../img/background/view-bg04.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#campain04 {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1339/640));
+    min-height: calc(100vw * (1339/640));
+    background: url(../../img/background/mb-review-bg06.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+
+
+/* section01, 02, 03, 04 이미지 텍스트 위치*/
+
+
+section#campain01 img,
+section#campain02 img,
+section#campain03 img,
+section#campain04 img
+{
+  width: auto;
+  height: auto;
+}
+/* campain01 */
+@media(max-width:767px) {
+  section#campain01 img {
+    width: calc(100vw * (834/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain01 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain01 img {
+    width: calc(800px * (800/640));
+  } 
+}
+
+@media(max-width:767px) {
+  section#campain01 div.video-txt {
+    width: calc(100vw * (360/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* campain02 */
+@media(max-width:767px) {
+  section#campain02 img {
+    width: calc(100vw * (810/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain02 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain02 img {
+    width: calc(800px * (800/640));
+  } 
+}
+
+@media(max-width:767px) {
+  section#campain02 div.video-txt {
+    width: calc(100vw * (360/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* campain03 */
+@media(max-width:767px) {
+  section#campain03 img {
+    width: calc(100vw * (771/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain03 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain03 img {
+    width: calc(800px * (800/640));
+  } 
+}
+@media(max-width:767px) {
+  section#campain03 div.video-txt {
+    width: calc(100vw * (340/640));
+    text-align: left;
+    position:absolute;
+    right: calc(100vw * (-10/640));
+    bottom: calc(100vw * (-25/640));
+  }
+}
+
+/* campain04 */
+@media(max-width:767px) {
+  section#campain04 img {
+    width: calc(100vw * (834/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#campain04 img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#campain04 img {
+    width: calc(800px * (800/640));
+  } 
+}
+@media(max-width:767px) {
+  section#campain04 div.video-txt {
+    width: calc(100vw * (340/640));
+    text-align: left;
+    position:absolute;
+    left: calc(100vw * (35/640));
+    bottom: calc(100vw * (-68/640))
+  }
+}
+
+
+
+
+/* slide2 */
+.slide2-mobile-img {
+  width: auto;
+  position: absolute;
+  top: 120px;
+  left: -140px;
+}
+@media (max-width: 767px) {
+  .slide2-mobile-img {
+    width: calc(100vw * (878 /640));
+    height: auto;
+    top: calc(100vw * (480 /640));
+    left: calc(100vw * (-120 /640));
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px){
+  .slide2-mobile-img {
+    width: calc(100vw * (430 /640));
+    height: auto;
+    top: calc(100vw * (180 /640));
+    left: calc(100vw * (-100 /640));
+  }
+}
+.view-logo {
+  margin-top: 0;
+  margin-left: 160px;
+}
+@media(max-width:767px) {
+  .view-logo {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .view-logo {
+    margin-left: calc(800px * (60 / 640));
+  }
+}
+.view-logo img.logoImg {
+  padding-top: 0;
+}
+.view-logo h3 {
+  font-size: 46px;
+  letter-spacing: -0.5px;
+  line-height: 51px;
+  padding: 0;
+  margin: 45px 0 26px;
+}
+@media(max-width:767px) {
+  .view-logo h3 {
+    font-size: calc(100vw * (50/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (55/640));
+    padding: 0;
+    margin: calc(100vw * (55/640)) 0;
+  }
+}
+.view-logo p {
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 33px;
+}
+@media(max-width:767px) {
+  .view-logo p {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+.view-logo p strong {
+  font-weight: bold;
+}
+
+
+
+/* 시장 점유율 1위 */
+section#view .view-col-pt {
+  padding-top: 250px;
+}
+@media(max-width:767px) {
+  section#view .view-col-pt {
+    padding-top: calc(100vw * (110/640));
+  }
+}
+section#view img.view-mobile-img{
+  width: 575px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 126px;
+}
+@media(max-width:767px) {
+  section#view img.view-mobile-img{
+    width: calc(100vw * (515/640));
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}
+section#view p{
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  line-height: 42px;
+}
+@media(max-width:767px) {
+  section#view p{
+    padding-top: calc(100vw * (150/640));
+    font-size: calc(100vw * (30/640));
+    letter-spacing: calc(100vw * (-0.2/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+
+
+/* 리뷰 텍스트 */
+@media(max-width:767px) {
+  section#review p.review-txt {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (18/640));
+    line-height: calc(100vw * (90/640));
+    font-weight: bold;
+  }
+}
+
+

@@ -1,0 +1,554 @@
+
+/* 두번쨰 페이지 베베캠 */
+section#about {
+  height: 1176px;
+  min-height: 1176px;
+  background: url(../../img/background/slide3-bg.jpg)no-repeat center  center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+@media(max-width:767px) {
+  section#about {
+    height: auto;
+    min-height: auto;
+  }
+  div#mobile-about {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (891/640));
+    min-height: calc(100vw * (891/640));
+    background: url(../../img/background/mb-bebecam-bg02.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#videoService {
+  height: 1602px;
+  min-height: 1602px;
+  background: url(../../img/background/bebecam-slide1-bg.png)no-repeat center center;
+  background-size: initial;
+  -webkit-background-size: initial;
+  -moz-background-size: initial;
+  -o-background-size: initial;
+}
+@media(max-width:767px) {
+  section#videoService {
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (1657/640));
+    min-height: calc(100vw * (1657/640));
+    background: url(../../img/background/mb-bebecam-bg03.png)no-repeat center  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+section#bebecam {
+  display: none;
+}
+@media(max-width:767px) {
+  section#bebecam {
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: calc(100vw * (149/640));
+    min-height: calc(100vw * (149/640));
+    background-color: #000;
+  }
+}
+@media(max-width:767px) {
+  section#bebecam p.bebecam-txt {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (18/640));
+    line-height: calc(100vw * (90/640));
+    font-weight: bold;
+  }
+}
+section#bebeCamReview {
+  background-color: #8588A1 !important;
+}
+
+section#bebecamCareCenter {
+  background-color: #859FB7 !important;
+}
+@media(max-width:767px) {
+  section#bebecamCareCenter {
+    display: none;
+  }
+}
+
+/* slide2 */
+.bebecam-mobile-img {
+  width: 100%;
+  top: 0;
+  left: -20px;
+  position: absolute;
+}
+@media(max-width:767px) {
+  .bebecam-mobile-img {
+    width: calc(100vw * (650 /640));
+    height: auto;
+    top: calc(100vw * (40 /640));
+    left: calc(100vw * (100 /640));
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .bebecam-mobile-img {
+    width: calc(100vw * (320 /640));
+    height: auto;
+    top: calc(100vw * (40 /640));
+    left: calc(100vw * (20 /640));
+  }  
+}
+.bebecam-logo {
+  margin-top: 0;
+  margin-left: 90px;
+}
+@media(max-width:767px) {
+  .bebecam-logo {
+    margin: 0 auto;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+.bebecam-logo img.logoImg {
+  padding-top: 0;
+}
+.bebecam-logo h3 {
+  font-size: 46px;
+  letter-spacing: -0.5px;
+  line-height: 51px;
+  padding: 0;
+  margin: 45px 0 26px;
+}
+@media(max-width:767px) {
+  .bebecam-logo h3 {
+    font-size: calc(100vw * (50/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (55/640));
+    padding: 0;
+    margin: calc(100vw * (55/640)) 0;
+  }
+}
+.bebecam-logo p {
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+}
+@media(max-width:767px) {
+  .bebecam-logo p {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (-0.5/640));
+    line-height: calc(100vw * (45/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+.bebecam-logo p {
+    margin-top: calc(800px * (12 / 640));
+    margin-bottom: 0;
+    font-size: calc(800px * (16 / 640));
+    letter-spacing: calc(800px * (-0.5 / 640));
+    line-height: calc(800px * (28 / 640));
+  }
+}
+.bebecam-logo p strong {
+  font-weight: bold;
+}
+
+
+/* 시장 점유율 1위 */
+section#about p{
+  color: #fff;
+}
+section#about img{
+  max-width: 100%;
+}
+.ft01{
+  margin-top: 85px !important;
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+}
+@media(max-width:767px) {
+  .ft01{
+    margin-top: calc(100vw * (62 / 640)) !important;
+    font-size: calc(100vw * (21 / 640)) !important;
+    letter-spacing: calc(100vw * (-0.2/ 640));
+    line-height: calc(100vw * (20 / 640));
+  }
+}
+.ft02{
+  font-size: 57px;
+  letter-spacing: -0.1px;
+  line-height: 240px;
+}
+@media(max-width:767px) {
+  .ft02{
+    margin-top: 0;
+    font-size: calc(100vw * (49 / 640)) !important;
+    letter-spacing: calc(100vw * (-0.1 / 640)) !important;
+    line-height: calc(100vw * (182 / 640));
+  }
+}
+.ft02 span{
+  font-size: 159px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  line-height: 178px;
+}
+@media(max-width:767px) {
+  .ft02 span{
+    font-size: calc(100vw * (133 / 640));
+    font-weight: bold;
+    letter-spacing: calc(100vw * (-0.1 / 640));
+    line-height: calc(100vw * (149 / 640));
+  }
+}
+.ft03{
+  font-size: 29px;
+  letter-spacing: -0.2px;
+  line-height: 52px;
+}
+@media(max-width:767px) {
+  .ft03{
+    font-size: calc(100vw * (25/ 640)) !important;
+    letter-spacing: calc(100vw * (-0.2 / 640)) !important;
+    line-height: calc(100vw * (44 / 640));
+  }
+}
+.about-box01{}
+@media(max-width:767px) {
+  .about-box01{
+    height: calc(100vw * (519/640));
+    background-color: #95B9CC;
+    padding: calc(100vw * (75 /640)) 0;
+  }
+  .about-box01 img{
+    width: calc(100vw * (236 /640));
+  }
+}
+
+.about-box02{}
+@media(max-width:767px) {
+  .about-box02{
+    height: calc(100vw * (519/640));
+    background-color: #8894AB;
+    padding: calc(100vw * (75 /640)) 0;
+  }
+  .about-box02 img{
+    width: calc(100vw * (236 /640));
+  }
+}
+.about-box03{}
+@media(max-width:767px) {
+  .about-box03{
+    height: calc(100vw * (519/640));
+    background-color: #A6AAC5;
+    padding: calc(100vw * (75 /640)) 0;
+  }
+  .about-box03 img{
+    width: calc(100vw * (236 /640));
+  }
+}
+.about-box04{}
+@media(max-width:767px) {
+  .about-box04{
+    height: calc(100vw * (519/640));
+    background-color: #95B9CC;
+    padding: calc(100vw * (75 /640)) 0;
+  }
+  .about-box04 img{
+    width: calc(100vw * (236 /640));
+  }
+}
+.about-img {
+  width: auto;
+  height: 84px;
+}
+.about-h3 {
+  margin-top: 24px;
+  font-size: 21px;
+  letter-spacing: -0.2px;
+  line-height: 15px;
+}
+section#about ul {
+  margin-top: 62px;
+}
+@media(max-width:767px) {
+  section#about ul {
+    margin-top: calc(100vw * (26 /640));
+  }
+}
+section#about ul li{
+  font-size: 16px;
+  letter-spacing: -0.6px;
+  line-height: 22px;
+}
+@media(max-width:767px) {
+  section#about ul li{
+    font-size: calc(100vw * (23 /640));
+    letter-spacing: calc(100vw * (-0.6 /640));
+    line-height: calc(100vw * (35 /640));
+  }
+}
+section#about ul li span.line {
+  margin: 11px auto;
+  width: 58px;
+  display: block;
+  border: 0.5px solid #fff;
+}
+
+
+/* 산후조리원 신생아 라이브 영상 서비스 */
+section#videoService p.gotham{
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 40px;
+}
+@media(max-width:767px) {
+  section#videoService p.gotham{
+    font-weight: bold;
+    margin-top: 0;
+    font-size: calc(100vw * (15 /640));
+    letter-spacing: calc(100vw * (-0.2 /640));
+    line-height: calc(100vw * (60 /640));
+  }  
+}
+section#videoService h2 {
+  font-weight: bold;
+  font-size: 68px;
+  letter-spacing: -0.2px;
+  line-height: 41px;
+  margin-bottom: 45px;
+}
+@media(max-width:767px) {
+  section#videoService h2 {
+    font-weight: bold;
+    font-size: calc(100vw * (60/640));
+    letter-spacing: calc(100vw * (-0.2 /640));
+    line-height: calc(100vw * (60 /640));
+    margin-bottom: calc(100vw * (25 /640));
+  } 
+}
+section#videoService h1 {
+  font-size: 46px;
+  letter-spacing: -0.2px;
+  line-height: 66px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+@media(max-width:767px) {
+  section#videoService h1 {
+    font-size: calc(100vw * (35 /640));
+    letter-spacing: calc(100vw * (-0.2 /640));
+    line-height: calc(100vw * (50 /640));
+    font-weight: normal;
+    margin-bottom: calc(100vw * (60/640));
+  } 
+}
+section#videoService img {
+  width: auto;
+  margin-left: 0;
+}
+@media(max-width:767px) {
+  section#videoService img {
+    width: calc(100vw * (842/640));
+    margin-left: calc(100vw * (-60/640));
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section#videoService img {
+    width: calc(800px * (600/640));
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  section#videoService img {
+    width: calc(800px * (800/640));
+  } 
+}
+
+@media(max-width:767px) {
+  section#videoService div.video-txt {
+    width: calc(100vw * (340/640));
+    text-align: left;
+    position:absolute;
+    right:calc(100vw * (-40/640));
+    bottom: calc(100vw * (-60/640));
+  }
+}
+section#videoService div.video-txt h3 {
+  margin-top: 75px;
+  font-size: 32px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  section#videoService div.video-txt h3 {
+    margin-top: 0;
+    font-size: calc(100vw * (30/640));
+    letter-spacing: calc(100vw * (-0.4/640));
+    line-height: calc(100vw * (40/640));
+  }
+}
+section#videoService div.video-txt p {
+  margin-top: 43px;
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  line-height: 44px;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  section#videoService div.video-txt p {
+    margin-top: calc(100vw * (37/640));
+    font-size: calc(100vw * (23/640));
+    letter-spacing: calc(100vw * (-0.6/640));
+    line-height: calc(100vw * (38/640));
+  }
+}
+
+/* 리뷰 */
+section#bebeCamReview h1 {
+  font-size: 67px;
+  letter-spacing: -0.2px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 120px;
+}
+@media(max-width:767px) {
+  section#bebeCamReview h1 {
+    font-size: calc(100vw * (50/640));
+    letter-spacing: calc(100vw * (-0.2/640));
+    line-height: calc(100vw * (60/640));
+    font-weight: bold;
+  }
+}
+section#bebeCamReview h3 {
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  line-height: 66px;
+  margin-bottom: 34px;
+}
+@media(max-width:767px) {
+  section#bebeCamReview h3 {
+    font-size: calc(100vw * (25/640));
+    letter-spacing: calc(100vw * (-0.2/640));
+    margin-top: calc(100vw * (40/640));
+    line-height: 0;
+    margin-bottom: 0;
+  }
+}
+/* 리뷰 */
+section#bebeCamReview .review-img {
+	text-align:center;
+}
+section#bebeCamReview .review-img img {
+  margin: 0 auto;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .review-img img {
+    width: calc(100vw * (520 /640));
+    margin: 0 auto;
+  }
+}
+section#bebeCamReview .revie_web {
+  width: 70%;
+  margin: 10px auto 156px auto;
+  color: #fff;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .revie_web {
+    margin: 10px auto 66px auto;
+  }
+}
+section#bebeCamReview .revie_web p{
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 31px;
+}
+section#bebeCamReview .revie_web img.reset-img {
+  width: 66px;
+  height: auto;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .revie_web img.sppech-img {
+    width: calc(100vw * (520/640));
+  }
+}
+section#bebeCamReview .careBtn-box img {
+  width: 300px;
+  height: auto;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .careBtn-box img{
+    width: calc(100vw * (240 /640));
+    height: auto;
+  }
+}
+section#bebeCamReview .careBtn-box p{
+  margin-top: 24px;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 19px;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .careBtn-box p{
+    margin-top: calc(100vw * (26 /640));
+    font-size: calc(100vw * (19 /640));
+    letter-spacing: calc(100vw * (-0.5 /640));
+    line-height: calc(100vw * (21 /640));
+  }  
+}
+section#bebeCamReview .careBtn-box .read-more p{
+  font-size: 26px;
+  font-family: 'gotham';
+  letter-spacing: -0.5px;
+  line-height: 29px;
+}
+@media(max-width:767px) {
+  section#bebeCamReview .careBtn-box .read-more p{
+    font-size: calc(100vw * (28 /640));
+    font-family: 'gotham';
+    letter-spacing: calc(100vw * (-0.5 /640));
+    line-height: calc(100vw * (10 /640));
+  }  
+}
+
+/* 아이보리 제휴 산후조리 */
+section#bebecamCareCenter p.gotham {
+  font-size: 21px;
+  letter-spacing: -0.2px;
+  line-height: 36px;
+  font-weight: bold;
+}
+section#bebecamCareCenter h1 {
+  font-size: 46px;
+  letter-spacing: -0.2px;
+  line-height: 66px;
+  margin-top: 53px;
+  margin-bottom: 70px;
+}
+section#bebecamCareCenter h2 {
+  font-size: 38px;
+  letter-spacing: -0.6px;
+  line-height: 63px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.carcenter-Imgbox {
+  width: 100%;
+  margin: 0 auto;
+}
+.carcenter-Imgbox img{
+  width: 100%;
+  object-fit: cover;
+}
